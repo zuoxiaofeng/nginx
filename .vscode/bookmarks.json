@@ -8,5 +8,110 @@
 				"label": "module index and name init"
 			}
 		]
+	},
+	{
+		"path": "$ROOTPATH$/src/core/ngx_cycle.c",
+		"bookmarks": [
+			{
+				"line": 38,
+				"column": 38,
+				"label": ""
+			},
+			{
+				"line": 221,
+				"column": 41,
+				"label": "create core module conf"
+			},
+			{
+				"line": 285,
+				"column": 41,
+				"label": "init module conf"
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$/src/os/unix/ngx_process_cycle.c",
+		"bookmarks": [
+			{
+				"line": 73,
+				"column": 44,
+				"label": "master process"
+			},
+			{
+				"line": 717,
+				"column": 56,
+				"label": "work main loop"
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$/src/http/ngx_http.c",
+		"bookmarks": [
+			{
+				"line": 119,
+				"column": 62,
+				"label": "http module main"
+			},
+			{
+				"line": 1626,
+				"column": 67,
+				"label": ""
+			},
+			{
+				"line": 1699,
+				"column": 66,
+				"label": ""
+			},
+			{
+				"line": 1712,
+				"column": 43,
+				"label": ""
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$/src/event/ngx_event.c",
+		"bookmarks": [
+			{
+				"line": 246,
+				"column": 51,
+				"label": "process events"
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$/src/event/modules/ngx_epoll_module.c",
+		"bookmarks": [
+			{
+				"line": 178,
+				"column": 51,
+				"label": "epoll events"
+			},
+			{
+				"line": 326,
+				"column": 65,
+				"label": "init modules event"
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$/src/event/ngx_event_posted.c",
+		"bookmarks": [
+			{
+				"line": 33,
+				"column": 24,
+				"label": "? invoke module handler."
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$/src/http/ngx_http_request.c",
+		"bookmarks": [
+			{
+				"line": 374,
+				"column": 47,
+				"label": "http module request handler"
+			}
+		]
 	}
 ]
