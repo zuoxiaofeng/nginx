@@ -3,6 +3,18 @@
     // for the documentation about the tasks.json format
     "version": "2.0.0",
     "inputs": [
+        {
+            "description": "Build Jobs",
+            "id": "jobs",
+            "type": "pickString",
+            "default": "8",
+            "options": [
+                "1",
+                "2",
+                "4",
+                "8"
+            ]
+        }
     ],
     "tasks": [
         {
@@ -10,7 +22,7 @@
             "type": "shell",
             "command": "./auto/configure",
             "args": [
-                "--builddir=${workspaceFolder}/build", 
+                "--builddir=${workspaceFolder}/builddir",
                 "--prefix=${workspaceFolder}/out",
                 "--with-http_v2_module",
                 "--with-http_ssl_module"
@@ -25,26 +37,29 @@
             "type": "shell",
             "command": "make",
             "args": [
-                "-f",
-                "./build/Makefile",
-                "-j8"
+                "-j${input:jobs}"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
             },
-            "problemMatcher": ["$gcc"]
+            "problemMatcher": [
+                "$gcc"
+            ]
         },
         {
             "label": "install",
             "type": "shell",
             "command": "make",
             "args": [
+                "-j${input:jobs}",
                 "install"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
             },
-            "problemMatcher": ["$gcc"]
+            "problemMatcher": [
+                "$gcc"
+            ]
         }
     ]
 }

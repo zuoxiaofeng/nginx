@@ -1,0 +1,12 @@
+[
+	{
+		"path": "$ROOTPATH$/src/core/ngx_module.c",
+		"bookmarks": [
+			{
+				"line": 30,
+				"column": 34,
+				"label": "module index and name init"
+			}
+		]
+	}
+]

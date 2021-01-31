@@ -3,7 +3,8 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/src/**"
+                "${workspaceFolder}/src/**",
+                "${workspaceFolder}/builddir"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/cpp",
