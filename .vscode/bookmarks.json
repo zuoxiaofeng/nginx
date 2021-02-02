@@ -23,6 +23,11 @@
 				"label": "create core module conf"
 			},
 			{
+				"line": 268,
+				"column": 47,
+				"label": ""
+			},
+			{
 				"line": 285,
 				"column": 41,
 				"label": "init module conf"
@@ -76,6 +81,21 @@
 				"line": 246,
 				"column": 51,
 				"label": "process events"
+			},
+			{
+				"line": 612,
+				"column": 42,
+				"label": "add listening event"
+			},
+			{
+				"line": 779,
+				"column": 50,
+				"label": ""
+			},
+			{
+				"line": 872,
+				"column": 69,
+				"label": ""
 			}
 		]
 	},
@@ -91,6 +111,16 @@
 				"line": 326,
 				"column": 65,
 				"label": "init modules event"
+			},
+			{
+				"line": 700,
+				"column": 45,
+				"label": ""
+			},
+			{
+				"line": 783,
+				"column": 22,
+				"label": ""
 			}
 		]
 	},
@@ -111,6 +141,16 @@
 				"line": 374,
 				"column": 47,
 				"label": "http module request handler"
+			}
+		]
+	},
+	{
+		"path": "$ROOTPATH$/src/core/ngx_conf_file.c",
+		"bookmarks": [
+			{
+				"line": 157,
+				"column": 51,
+				"label": ""
 			}
 		]
 	}
